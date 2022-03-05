@@ -1,6 +1,9 @@
 # Rocket-Elevators-Csharp-Controller
-This is the template to use for the C# commercial controller. In the Commercial_Controller folder, you will find the classes that should be used along with some methods described in the requirements. The necessary files to run some tests are also included, in the Commercial_Controller.Tests folder.
+The purpose of this code is to make a simple, yet effective controller for an elevator. enjoy (:
 
+Imagine it, youre in a fancy building and you want to go to the top. Thrilling. You, the user, go up to the floor request buttons and press one. Whatever your choice was, the column will control the elevator to go to your location, and to add it to a queue. The doors open, you step inside. The column then controlls the elevator to go in the direction you requested. You start going in that direction and soon, the elevator is set to "stopped". The doors open for you, and then they close behind you as you step out. You just rode the best elevator in existence. youre welcome.
+
+Column and elevator selection is based on a scoring system. Elevator moves and stops based on column control. Elevator is able to have multiple queues. Elevator moves at incredible speeds.
 ### Installation
 
 As long as you have **.NET 6.0** installed on your computer, nothing more needs to be installed:
@@ -27,6 +30,4 @@ which should give something like:
 
 ![Screenshot from 2021-06-15 18-00-52](https://user-images.githubusercontent.com/28630658/122129140-a8f84a00-ce03-11eb-8807-33d7eab8c387.png)
 
-Make sure to only edit files in the Commercial_Controller folder. The test and scenarios files can be left in your final project. The grader will run tests similar to the ones provided.
-
-Of course, make sure to edit this Readme file to describe your own project!
+# Rocket-Elevators-Csharp-Controller
